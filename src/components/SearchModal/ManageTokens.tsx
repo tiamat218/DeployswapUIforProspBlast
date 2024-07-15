@@ -117,7 +117,6 @@ export default function ManageTokens({
           )}
         </AutoColumn>
         {tokenList}
-        <Footer>
           <Text bold color="textSubtle">
             {userAddedTokens?.length} {userAddedTokens.length === 1 ? t('Custom Token') : t('Custom Tokens')}
           </Text>
@@ -126,7 +125,6 @@ export default function ManageTokens({
               {t('Clear all')}
             </Button>
           )}
-        </Footer>
       </Column>
     </Wrapper>
   )
